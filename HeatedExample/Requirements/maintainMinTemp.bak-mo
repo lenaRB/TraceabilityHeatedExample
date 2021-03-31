@@ -1,0 +1,6 @@
+within HeatedExample.Requirements;
+
+model maintainMinTemp
+extends VVDRlib.Verification.Requirement;
+
+end maintainMinTemp;

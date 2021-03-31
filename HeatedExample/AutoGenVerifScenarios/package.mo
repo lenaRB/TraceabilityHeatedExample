@@ -1,0 +1,4 @@
+within HeatedExample;
+
+package AutoGenVerifScenarios
+end AutoGenVerifScenarios;

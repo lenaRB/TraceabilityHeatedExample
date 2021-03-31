@@ -1,0 +1,6 @@
+within HeatedExample;
+
+package Scenarios
+equation
+
+end Scenarios;
