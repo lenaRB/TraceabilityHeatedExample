@@ -6,7 +6,7 @@ model HeatedElement
     Placement(visible = true, transformation(origin = {-32, -26}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Electrical.Analog.Basic.HeatingResistor resistor annotation(
     Placement(visible = true, transformation(origin = {36, -16}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-  Modelica.Electrical.Analog.Sources.ConstantVoltage constantVoltage(V = 4) annotation(
+  Modelica.Electrical.Analog.Sources.ConstantVoltage constantVoltage(V = 2) annotation(
     Placement(visible = true, transformation(origin = {-22, 26}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   Modelica.Thermal.HeatTransfer.Components.HeatCapacitor heatCapacitor(C = 5, T(displayUnit = "K")) annotation(
     Placement(visible = true, transformation(origin = {36, -88}, extent = {{-10, 10}, {10, -10}}, rotation = 0)));
